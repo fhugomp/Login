@@ -67,6 +67,8 @@ form {
 
 .campo input {
     border: 3px solid #5f2c82;
+    width: 100%;
+
     padding: .5rem;
 }
 
@@ -77,9 +79,7 @@ form {
 }
 
 label {
-    font-weight: bolder;
-    padding-left: 0.5rem;
-    cursor: pointer;
+    display: none;
 }
 
 #btn {
