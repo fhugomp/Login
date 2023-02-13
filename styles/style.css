@@ -23,7 +23,7 @@ main {
 section.login {
     background: white;
     height: 60rem;
-    width: 30rem;
+    width: 31rem;
     border-radius: 2rem;
     box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.473);
     padding: 0;
@@ -46,3 +46,63 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.campo {
+    display: flex;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+#person, #key {
+    padding-right: 1rem;
+    font-size: 3.5rem;
+    color: #5f2c82;
+}
+
+.campo input {
+    border: 3px solid #5f2c82;
+    padding: .5rem;
+}
+
+.campo input:focus {
+    border: 4px solid #49a09d;
+    outline: 0;
+    padding: .5rem;
+}
+
+label {
+    font-weight: bolder;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #5f2c82;
+    color: white;
+    font-size: 2rem;
+    border: .3rem solid #49a09d;
+}
+
+#btn:hover {
+    background-color: #49a09d;
+    transition: 0.3s ease;
+}
+
+.form a {
+    margin-top: 1rem;
+    color: #5f2c82;
+    font-size: 2rem;
+} 
+
+.form a:hover {
+    color: gray;
+} 
