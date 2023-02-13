@@ -41,7 +41,7 @@
     div.image{
         height: 100%; 
         width: 50%;
-        background:url(../images/building.jpg) no-repeat bottom right/ cover;
+        background:url('../images/building.jpg') no-repeat bottom right/ cover;
     }
 
     div.form {
