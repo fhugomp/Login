@@ -1,4 +1,4 @@
-# [Login](fhugomendes.github.io/Login/)
+# <a href='fhugomendes.github.io/Login/' target='_blank'>Login</a>
 
 Uma tela de login utilizando html e css
 
